@@ -3,6 +3,8 @@ import axios from "axios";
 
 export const generateChatCompletion = async (content) => {
   const baseUrl = "https://api.groq.com/openai/v1";
+  const apiKey = "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";
+
   try {
     // Define the message to send
     const message = {
